@@ -1,0 +1,41 @@
+.population-box{
+    background-color: #f8c291;
+    padding: 5% 5% 5% 5%;
+    
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.population-box h4{
+    font-weight: bold;
+    color: #2d3436;
+}
+.population-box ul li{
+    list-style-type: style; ;
+    font-size: 20px;
+    color: #2d3436;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #d63031;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #d63031;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
